@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Germania+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  user-select: none;
+
+  overflow: hidden;
+  overscroll-behavior-y: contain;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+
+  background: lightblue;
+}
